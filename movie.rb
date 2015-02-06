@@ -5,12 +5,12 @@ class Movie
     "Coming in 2016 don't miss #{self.title} directed by:#{self.director} for the price of:#{self.price}"
   end
 
-  def cheaper?(book)
-    self.price < book.price
+  def cheaper?(movie)
+    self.price < movie.price
   end
 
-  def more_expensive?(book)
-    not self.cheaper?(book)
+  def more_expensive?(movie)
+    not self.cheaper?(movie)
   end
 
 end
