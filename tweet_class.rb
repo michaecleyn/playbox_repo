@@ -6,7 +6,7 @@ class Tweet
   end
 
   def post
-      Tweet.new.valid? == true
-      puts "#{content}"
+    Tweet.new.valid? == true
+    puts "#{content}"
   end
 end
